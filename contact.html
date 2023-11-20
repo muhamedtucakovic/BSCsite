@@ -61,13 +61,6 @@
                   <a class="nav-link" href="contact.html">Kontakt</a>
                 </li>
               </ul>
-              <div class="user_option">
-                <a href="">
-                  <img src="images/user.png" alt="">
-                </a>
-                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
               </div>
             </div>
           </div>
@@ -91,21 +84,21 @@
           <div class="row">
             <div class="col-md-9 mx-auto">
               <div class="contact-form">
-                <form action="">
+                <form action="https://formsubmit.co/9dd938463c6c5da88a61ad699c2a55e4" method="POST">
                   <div>
-                    <input type="text" placeholder="Ime i prezime ">
+                    <input id="ime" type="text" name="ime" placeholder="Ime i prezime ">
                   </div>
                   <div>
-                    <input type="text" placeholder="Broj telefona">
+                    <input id="broj" type="text" name="broj" placeholder="Broj telefona">
                   </div>
                   <div>
-                    <input type="email" placeholder="Email adresa">
+                    <input id="email" type="email" name="email" placeholder="Email adresa">
                   </div>
                   <div>
-                    <input type="text" placeholder="Vaša poruka" class="input_message">
+                    <input id="poruka" type="text" name="poruka" placeholder="Vaša poruka" class="input_message">
                   </div>
                   <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn_on-hover">
+                    <button id="pošalji" type="submit" class="btn_on-hover" method="POST">
                       Pošalji
                     </button>
                   </div>

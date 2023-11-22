@@ -180,8 +180,9 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(../images/contact.webp);
+  background-image: url(../images/toggle.png);
   background-size: 55px;
+
 }
 
 /*end header section*/
@@ -585,8 +586,16 @@ a:focus {
   margin: 25px auto 0 auto;
 }
 
-.contact_section .map_img-box img {
+.contact_section .container {
   width: 100%;
+  text-align: center;
+  align-items: stretch;
+}
+iframe {
+  align-items: stretch;
+  size-adjust: stretch;
+
+
 }
 
 /* end contact section */

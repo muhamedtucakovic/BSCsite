@@ -34,17 +34,17 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-direction: column;
+  flex-direction:column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .heading_container h2 {
-  font-weight: bold;
+  font-weight: bolder;
   text-transform: uppercase;
-  position: relative;
+  text-align: center;
 }
 
 .heading_container h2::before, .heading_container h2::after {
@@ -79,6 +79,10 @@ body {
 .sub_page .hero_area {
   height: auto;
 }
+#google_translate_element{
+  text-align: center;
+  background-color: transparent;
+}
 
 .sub_page .who_section.layout_padding {
   padding-top: 0;
@@ -110,7 +114,7 @@ body {
   top: 50%;
   left: -2px;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 7px;
   height: 7px;
   border-radius: 100%;
@@ -140,8 +144,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -266,7 +270,7 @@ a:focus {
   text-align: center;
   position: relative;
   z-index: 5;
-  margin: 35px 25px 0 25px;
+  margin: auto;
 }
 
 .do_section .do_container .box .img-box {
@@ -276,11 +280,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #353434;
   border-radius: 100%;
 }
@@ -299,9 +303,9 @@ a:focus {
 
 .do_section .do_container .arrow_bg::before {
   content: "";
-  position: absolute;
+  position: absolute;;
   top: -23px;
-  left: -17px;
+  left: -315px;
   width: 262%;
   height: 90%;
   z-index: 3;
@@ -309,33 +313,35 @@ a:focus {
 }
 
 .do_section .do_container .arrow-start::before {
-  background-image: url(../images/arrow-start.png);
+  background-image: url(../images/arrnow-start.png);
 }
 
 .do_section .do_container .arrow-middle::before {
-  background-image: url(../images/arrow-middle.png);
+  background-image: url(../imahges/arrow-middle.png);
 }
 
 .do_section .do_container .arrow-end::before {
-  background-image: url(../images/arrow-end.png);
+  background-image: url(../imagesh/arrow-end.png);
 }
 
 .who_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .who_section .img-box img {
-  width: 100%;
+  width: 400px;
+  height: 500px;
 }
 
 .who_section .detail-box {
-  margin-left: 65px;
+  margin-left: 10px;
+  margin-right: 100px;
 }
 
 .who_section .detail-box p {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .who_section .detail-box a {
@@ -345,7 +351,7 @@ a:focus {
   border: 1px solid #353434;
   color: #ffffff;
   border-radius: 20px 20px 0 20px;
-  margin-top: 35px;
+  margin-top: 35px;;
 }
 
 .who_section .detail-box a:hover {
@@ -358,7 +364,7 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0 -1%;
 }
 
@@ -368,8 +374,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .work_section .work_container .box img {
@@ -586,17 +592,27 @@ a:focus {
   margin: 25px auto 0 auto;
 }
 
-.contact_section .container {
+.contact_section .map_img-box img {
   width: 100%;
+}
+.lokacija {
+  text-align: center;
+}
+.lokacija h2{
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+}
+.iframe {
+  text-align: center;
+  align-items: stretch;
+  size-adjust: stretch;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 10px;
 }
-.contact_section .container h2 {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 30px;
 
 /* end contact section */
 .info_section {

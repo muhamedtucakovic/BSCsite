@@ -331,8 +331,8 @@ a:focus {
 }
 
 .who_section .img-box img {
-  width: 400px;
-  height: 500px;
+  width: 520px;
+  height: 530px;
 }
 
 .who_section .detail-box {
@@ -342,6 +342,9 @@ a:focus {
 
 .who_section .detail-box p {
   margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 40px;
+  margin-bottom: 10px;
 }
 
 .who_section .detail-box a {
@@ -613,7 +616,6 @@ a:focus {
   flex-direction: column;
   padding-bottom: 10px;
 }
-
 /* end contact section */
 .info_section {
   background-color: #232323;

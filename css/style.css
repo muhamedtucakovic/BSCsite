@@ -610,6 +610,7 @@ a:focus {
 }
 .lokacija {
   text-align: center;
+  
 }
 .lokacija h2{
   text-align: center;
@@ -625,6 +626,7 @@ a:focus {
   justify-content: center;
   flex-direction: column;
   padding-bottom: 10px;
+  margin-bottom: 0;
 }
 /* end contact section */
 .info_section {

@@ -246,6 +246,27 @@ a:focus {
   border-radius: 100%;
   opacity: 1;
 }
+.who_section .row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.who_section .col-md-4 {
+  flex: 0 0 20%; 
+  margin-bottom: 20px;
+}
+
+.who_section .img-box1 {
+  text-align: left;
+}
+
+.who_section .detail-box1 {
+  text-align: left;
+}
+
+.who_section .detail-box1 p {
+  margin-top: 0;
+}
 
 .do_section .heading_container {
   -webkit-box-align: center;

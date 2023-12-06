@@ -96,7 +96,6 @@ body {
 .hero_area {
   height: 100vh;
   background-color: #b5caee;
-  background-image: url(../images/her1o-bg.jpg);
   background-size: cover;
 }
 
@@ -166,17 +165,6 @@ a:focus {
   display: flex;
   align-items: center;
 
-}
-
-.custom_nav-container .nav_search-btn {
-  background-image: url(../images/searchs-icon.png);
-  background-size: 22px;
-  background-repeat: no-repeat;
-  background-position-y: 7px;
-  width: 35px;
-  height: 35px;
-  padding: 0;
-  border: none;
 }
 
 .navbar-brand {
@@ -316,19 +304,19 @@ a:focus {
 
       &-start {
         &::before {
-          background-image: url(../images/arrow-start.png);
+          background-image: url(../images/arrtar.png);
         }
       }
 
       &-middle {
         &::before {
-          background-image: url(../images/arrow-middle.png);
+          background-image: url(../images/arrow-mddle.png);
         }
       }
 
       &-end {
         &::before {
-          background-image: url(../images/arrow-end.png);
+          background-image: url(../images/arrowend.png);
         }
       }
     }
@@ -446,7 +434,7 @@ a:focus {
       border-radius: 30px;
     }
 
-  }
+  } 
 
   .map_img-box {
     width: 80%;
